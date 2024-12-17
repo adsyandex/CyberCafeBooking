@@ -1,0 +1,7 @@
+{
+    "db_user": "root",
+    "db_password": "password",
+    "db_name": "internet_cafe",
+    "db_host": "localhost",
+    "db_port": "3306"
+}

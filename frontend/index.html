@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet Cafe Booking</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <h1>Бронирование компьютеров</h1>
+    <form id="bookingForm">
+        <label>Имя: <input type="text" id="name" required></label><br>
+        <label>Контакт: <input type="text" id="contact" required></label><br>
+        <label>Компьютер: <input type="text" id="computer" required></label><br>
+        <label>Время начала: <input type="time" id="startTime" required></label><br>
+        <label>Время окончания: <input type="time" id="endTime" required></label><br>
+        <button type="submit">Забронировать</button>
+    </form>
+    <h2>Текущие бронирования</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Имя</th>
+                <th>Контакт</th>
+                <th>Компьютер</th>
+                <th>Начало</th>
+                <th>Окончание</th>
+            </tr>
+        </thead>
+        <tbody id="bookingTable"></tbody>
+    </table>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
