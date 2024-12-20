@@ -1,4 +1,4 @@
-module backend
+module cybercafebooking
 
 go 1.23.4
 
